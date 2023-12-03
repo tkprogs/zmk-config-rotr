@@ -8,7 +8,7 @@
         inc_dec_kp_2: behavior_sensor_rotate_key_press_2 {
             compatible = "zmk,behavior-sensor-rotate-key-press";
             label = "ENC_KEY_PRESS_2";
-            triggers-per-rotation = <1>;
+            triggers-per-rotation = <8>;
             #sensor-binding-cells = <2>;
         };
     };
